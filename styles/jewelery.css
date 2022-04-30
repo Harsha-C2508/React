@@ -1,0 +1,32 @@
+#navbar{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+#options{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+}
+#container>div{
+    border: solid;
+    text-align: center;
+    padding-top: 10px;
+}
+#img{
+    height: 600px;
+    width: 100%;
+
+}
